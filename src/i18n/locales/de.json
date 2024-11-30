@@ -1,0 +1,30 @@
+{
+  "datenschutz": {
+    "changes": "Wir behalten uns vor, diese Datenschutzerklärung gelegentlich zu aktualisieren, um rechtlichen Anforderungen zu entsprechen oder Änderungen unserer Dienstleistungen in der Datenschutzerklärung umzusetzen. Die aktuelle Fassung der Datenschutzerklärung ist jederzeit auf unserer Website einsehbar.",
+    "contact": "Wenn Sie Fragen zu dieser Datenschutzerklärung oder zur Verarbeitung Ihrer personenbezogenen Daten haben oder Ihre Rechte ausüben möchten, kontaktieren Sie uns bitte: Rix Events, Tribschenstrasse 44a, 6005 Luzern, Schweiz. E-Mail: info{'@'}rrevents.ch.",
+    "cookies": "Unsere Website verwendet Cookies, um die Nutzung bestimmter Funktionen zu ermöglichen und unsere Website nutzerfreundlicher zu gestalten. Cookies sind kleine Textdateien, die auf Ihrem Endgerät gespeichert werden. Sie können die Speicherung von Cookies durch eine entsprechende Einstellung Ihres Browsers verhindern. Beachten Sie jedoch, dass in diesem Fall möglicherweise nicht alle Funktionen unserer Website vollumfänglich genutzt werden können.",
+    "dataCollection": "Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen. Wir erheben und verarbeiten Ihre personenbezogenen Daten nur, wenn Sie uns diese freiwillig zur Verfügung stellen, etwa im Rahmen einer Anfrage über unser Kontaktformular oder einer Registrierung auf unserer Website. Die erhobenen Daten umfassen insbesondere Ihren Namen, Ihre E-Mail-Adresse, Ihre Telefonnummer und andere Kontaktdaten.",
+    "dataProtection": "Wir setzen technische und organisatorische Sicherheitsmassnahmen ein, um Ihre Daten gegen unbefugten Zugriff, Manipulation, Verlust oder Zerstörung zu schützen. Unsere Sicherheitsmassnahmen werden entsprechend der technologischen Entwicklung fortlaufend verbessert. Alle unsere Mitarbeiter und an der Datenverarbeitung beteiligte Dritte sind zur Einhaltung der datenschutzrechtlichen Vorschriften verpflichtet.",
+    "introduction": "Der Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Diese Datenschutzerklärung erläutert, wie wir personenbezogene Daten erheben, verarbeiten und nutzen, wenn Sie unsere Website besuchen. Wir verarbeiten Ihre Daten ausschliesslich auf Grundlage der gesetzlichen Bestimmungen, insbesondere des schweizerischen Datenschutzgesetzes (DSG) und, soweit anwendbar, der EU-Datenschutz-Grundverordnung (DSGVO).",
+    "photoCredits": "Die auf dieser Webseite verwendeten Event-Fotos stammen von folgender Quelle: Anstellung CH Media, 2016 – 2024, Verantwortlichkeit Events.",
+    "rights": "Sie haben das Recht, jederzeit Auskunft über Ihre bei uns gespeicherten personenbezogenen Daten zu verlangen. Darüber hinaus haben Sie das Recht auf Berichtigung, Sperrung oder Löschung dieser Daten, sofern dem keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Sie können der Verwendung Ihrer personenbezogenen Daten zu Werbezwecken jederzeit widersprechen.",
+    "section10Title": "Bildnachweise",
+    "section1Title": "Einleitung",
+    "section2Title": "Erhebung und Verarbeitung personenbezogener Daten",
+    "section3Title": "Verwendungszweck der Daten",
+    "section4Title": "Datensicherheit",
+    "section5Title": "Weitergabe an Dritte",
+    "section6Title": "Ihre Rechte",
+    "section7Title": "Cookies und andere Technologien",
+    "section8Title": "Kontakt und Ausübung Ihrer Rechte",
+    "section9Title": "Änderungen dieser Datenschutzerklärung",
+    "thirdParties": "Eine Weitergabe Ihrer personenbezogenen Daten an Dritte erfolgt nur, soweit dies zur Erfüllung des Vertrags erforderlich ist, wir gesetzlich dazu verpflichtet sind, oder Sie zuvor ausdrücklich eingewilligt haben. Unsere Dienstleister, die uns bei der Erbringung unserer Dienstleistungen unterstützen, sind ebenfalls zur Einhaltung der Datenschutzbestimmungen verpflichtet.",
+    "title": "Datenschutzerklärung",
+    "usageOfData": "Wir verwenden die von Ihnen bereitgestellten personenbezogenen Daten zur Erfüllung und Abwicklung Ihrer Anfragen, zur Bereitstellung unserer Dienstleistungen, zur Verbesserung unserer Website und zur Kommunikation mit Ihnen. Wir nutzen Ihre Daten auch, um Ihnen Informationen über unsere Dienstleistungen zukommen zu lassen, sofern Sie hierzu eingewilligt haben."
+  },
+  "footer": {
+    "createdBy": "Erstellt von  © 2024",
+    "datenschutz": "Datenschutz",
+    "impressum": "Impressum"
+  }
+}
