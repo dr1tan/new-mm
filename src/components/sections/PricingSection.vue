@@ -3,95 +3,120 @@
     <!-- Titel und Untertitel -->
     <div class="text-center">
       <h2
-        class="from-markajpink-500 to-markajgold-500 bg-gradient-to-r bg-clip-text text-3xl font-bold text-transparent md:text-4xl"
+        class="bg-gradient-to-r from-markajpink-500 to-markajgold-500 bg-clip-text text-3xl font-bold text-transparent md:text-4xl"
       >
         Unsere Preise
       </h2>
-      <p class="text-markajneutral-500 mt-4 text-lg">
-        Faire Preise für professionelle Leistungen. Wählen Sie das passende
-        Paket für Ihre Anforderungen.
+      <p class="mt-4 text-lg text-markajneutral-500">
+        Transparente Preise für maßgeschneiderte Dienstleistungen.
       </p>
     </div>
 
     <!-- Preispakete -->
-    <div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
-      <!-- Basic Paket -->
-      <div
-        class="group flex flex-col items-center rounded-lg bg-white p-6 shadow-lg transition hover:shadow-xl"
-      >
-        <h3 class="text-markajpink-500 text-xl font-semibold">Basic</h3>
-        <p class="text-markajneutral-500 mt-2 text-sm">
-          Perfekt für kleine Projekte und Start-ups.
-        </p>
-        <p class="text-markajgold-500 mt-4 text-3xl font-bold">€1.499</p>
-        <ul class="text-markajneutral-500 mt-4 space-y-2 text-sm">
-          <li>1 individuelle Seite</li>
-          <li>Responsive Design</li>
-          <li>Basis SEO</li>
-          <li>1 Monat Support</li>
-        </ul>
-        <button
-          class="bg-markajgold-500 hover:bg-markajgold-600 mt-6 rounded-full px-6 py-3 text-white shadow-lg transition"
-        >
-          Jetzt starten
-        </button>
-      </div>
+    <div class="mt-12 flex flex-wrap justify-center gap-8">
+      <!-- Webseiten Paket -->
+      <GlareCard class="relative w-full max-w-md bg-markajpink p-3 text-black">
+        <div class="p-6 text-center">
+          <h3 class="text-left text-4xl font-extrabold">
+            Webseiten individuell
+          </h3>
+          <p class="mt-2 pt-10 text-left text-2xl font-bold">ab 1.290€</p>
+          <div class="my-4 h-[1px] w-full bg-black"></div>
+          <ul class="space-y-2 text-lg">
+            <li class="flex items-center gap-2">
+              <span>✔</span> Maßgeschneidertes Design
+            </li>
+            <li class="flex items-center gap-2">
+              <span>✔</span> Responsive Layouts
+            </li>
+            <li class="flex items-center gap-2">
+              <span>✔</span> Inklusive Basis-SEO
+            </li>
+          </ul>
+          <button
+            class="mt-48 w-full rounded-full bg-black px-6 py-3 text-white transition hover:bg-gray-800"
+          >
+            Termin buchen
+          </button>
+        </div>
+      </GlareCard>
 
-      <!-- Advanced Paket -->
-      <div
-        class="ring-markajpink-500 group flex flex-col items-center rounded-lg bg-white p-6 shadow-lg ring-2 transition hover:shadow-xl"
-      >
-        <h3 class="text-markajpink-500 text-xl font-semibold">Advanced</h3>
-        <p class="text-markajneutral-500 mt-2 text-sm">
-          Ideal für mittelständische Unternehmen.
-        </p>
-        <p class="text-markajgold-500 mt-4 text-3xl font-bold">€2.999</p>
-        <ul class="text-markajneutral-500 mt-4 space-y-2 text-sm">
-          <li>Bis zu 5 Seiten</li>
-          <li>Responsive Design</li>
-          <li>SEO-Optimierung</li>
-          <li>3 Monate Support</li>
-        </ul>
-        <button
-          class="bg-markajgold-500 hover:bg-markajgold-600 mt-6 rounded-full px-6 py-3 text-white shadow-lg transition"
-        >
-          Jetzt starten
-        </button>
-      </div>
+      <!-- SEO Paket -->
+      <GlareCard class="relative w-full max-w-md bg-markajgold p-3 text-black">
+        <div class="p-6 text-center">
+          <h3 class="text-left text-4xl font-extrabold">SEO / Google Suche</h3>
+          <p class="mt-2 pt-10 text-left text-2xl font-bold">
+            ab 390€ / monatlich
+          </p>
+          <div class="my-4 h-[1px] w-full bg-black"></div>
+          <ul class="space-y-2 text-lg">
+            <li class="flex items-center gap-2">
+              <span>✔</span> Ranking-Optimierung
+            </li>
+            <li class="flex items-center gap-2">
+              <span>✔</span> Keyword-Analyse
+            </li>
+            <li class="flex items-center gap-2">
+              <span>✔</span> Monatliches Reporting
+            </li>
+          </ul>
+          <button
+            class="mt-48 w-full rounded-full bg-black px-6 py-3 text-white transition hover:bg-gray-800"
+            @click="console.log('Termin buchen')"
+          >
+            Termin buchen
+          </button>
+        </div>
+      </GlareCard>
 
-      <!-- Premium Paket -->
-      <div
-        class="group flex flex-col items-center rounded-lg bg-white p-6 shadow-lg transition hover:shadow-xl"
+      <!-- SEA Paket -->
+      <GlareCard
+        class="relative w-full max-w-md bg-markajneutral-400 p-3 text-black"
       >
-        <h3 class="text-markajpink-500 text-xl font-semibold">Premium</h3>
-        <p class="text-markajneutral-500 mt-2 text-sm">
-          Für anspruchsvolle, maßgeschneiderte Lösungen.
-        </p>
-        <p class="text-markajgold-500 mt-4 text-3xl font-bold">€5.999</p>
-        <ul class="text-markajneutral-500 mt-4 space-y-2 text-sm">
-          <li>Unbegrenzte Seiten</li>
-          <li>Responsive Design</li>
-          <li>Premium SEO</li>
-          <li>12 Monate Support</li>
-        </ul>
-        <button
-          class="bg-markajgold-500 hover:bg-markajgold-600 mt-6 rounded-full px-6 py-3 text-white shadow-lg transition"
-        >
-          Jetzt starten
-        </button>
-      </div>
+        <div class="p-6 text-center">
+          <h3 class="text-left text-4xl font-extrabold">SEA / Google Ads</h3>
+          <p class="mt-2 pt-20 text-left text-2xl font-bold">
+            ab 290€ / monatlich
+          </p>
+          <div class="my-4 h-[1px] w-full bg-black"></div>
+          <ul class="space-y-2 text-lg">
+            <li class="flex items-center gap-2">
+              <span>✔</span> Kampagnen-Management
+            </li>
+            <li class="flex items-center gap-2">
+              <span>✔</span> Zielgruppen-Targeting
+            </li>
+            <li class="flex items-center gap-2">
+              <span>✔</span> Optimierung & Analyse
+            </li>
+          </ul>
+          <button
+            class="mt-48 w-full rounded-full bg-black px-6 py-3 text-white transition hover:bg-gray-800"
+          >
+            Termin buchen
+          </button>
+        </div>
+      </GlareCard>
     </div>
   </section>
+  <ClientOnly>
+    <div
+      className="z-10 flex min-h-64 items-center justify-center rounded-lg  "
+    >
+      <TextScrollReveal text="Websites nicht von dieser Welt." />
+    </div>
+  </ClientOnly>
 </template>
 
 <script setup lang="ts">
-// Keine spezielle Logik nötig
+import TextScrollReveal from '../inspira/TextScrollReveal.vue';
+import GlareCard from '../inspira/GlareCard.vue';
 </script>
 
 <style scoped>
-/* Hover-Effekt */
-.group:hover {
-  transform: translateY(-5px);
+/* Adjust hover effects */
+button:hover {
+  transform: scale(1.05);
   transition: transform 0.3s ease-in-out;
 }
 </style>

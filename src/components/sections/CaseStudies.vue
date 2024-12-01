@@ -6,87 +6,55 @@
     <!-- Titel und Untertitel -->
     <div class="text-center">
       <h2
-        class="from-markajpink-500 to-markajgold-500 bg-gradient-to-r bg-clip-text text-3xl font-bold text-transparent md:text-4xl"
+        class="bg-gradient-to-r from-markajpink-500 to-markajgold-500 bg-clip-text text-3xl font-bold text-transparent md:text-4xl"
       >
         Erfolgreiche Projekte
       </h2>
-      <p class="text-markajneutral-500 mt-4 text-lg">
-        Entdecken Sie, wie wir Unternehmen dabei helfen, online zu wachsen.
-      </p>
+      <p class="mt-4 text-lg text-markajneutral-500">Unser letztes Projekt:</p>
     </div>
 
-    <!-- Projektbeispiele -->
-    <div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-      <!-- Projekt 1 -->
-      <div
-        class="group rounded-lg bg-gray-100 p-6 shadow-lg transition hover:shadow-xl"
-      >
-        <h3 class="text-markajpink-500 mt-4 text-xl font-semibold">
-          Online-Shop für Mode
-        </h3>
-        <p class="text-markajneutral-500 mt-2 text-sm">
-          Wir haben eine benutzerfreundliche Plattform entwickelt, die den
-          Umsatz um 50 % steigerte.
-        </p>
-        <a
-          href="#"
-          class="text-markajgold-500 mt-4 inline-block text-sm font-semibold hover:underline"
-        >
-          Mehr erfahren →
-        </a>
+    <!-- Mockup und Text -->
+    <div class="relative mt-12 flex flex-col items-start gap-8 p-4 md:flex-row">
+      <!-- Safari Mockup -->
+
+      <!-- Safari Mockup -->
+      <div class="w-full max-w-5xl">
+        <SafariMockup url="athena-roma.de" src="/athena.jpg" />
       </div>
 
-      <!-- Projekt 2 -->
-      <div
-        class="group rounded-lg bg-gray-100 p-6 shadow-lg transition hover:shadow-xl"
-      >
-        <h3 class="text-markajgold-500 mt-4 text-xl font-semibold">
-          Unternehmenswebsite für Berater
+      <!-- Text -->
+      <div class="flex w-full flex-col justify-center">
+        <h3 class="text-2xl font-bold text-markajgold-500">
+          Modernes Webdesign für Restaurants
         </h3>
-        <p class="text-markajneutral-500 mt-2 text-sm">
-          Moderne Website mit Fokus auf Kundenbindung und professionelles
-          Branding.
+        <p class="mt-4 text-lg text-markajneutral-500">
+          Das Projekt für Athena Roma umfasst ein benutzerfreundliches Design,
+          schnelle Ladezeiten und eine responsive Struktur, die sowohl auf
+          Mobilgeräten als auch auf Desktops einwandfrei funktioniert.
         </p>
-        <a
-          href="#"
-          class="text-markajgold-500 mt-4 inline-block text-sm font-semibold hover:underline"
-        >
-          Mehr erfahren →
-        </a>
-      </div>
-
-      <!-- Projekt 3 -->
-      <div
-        class="group rounded-lg bg-gray-100 p-6 shadow-lg transition hover:shadow-xl"
-      >
-        <h3 class="text-markajblue-500 mt-4 text-xl font-semibold">
-          Website für ein Café
-        </h3>
-        <p class="text-markajneutral-500 mt-2 text-sm">
-          Lokales Café mit einer ansprechenden Website, die mehr Gäste anzieht.
+        <p class="mt-4 text-lg text-markajneutral-500">
+          Die Website wurde mit den neuesten Technologien entwickelt und bietet
+          Besuchern eine einfache Navigation, um das Restaurant optimal zu
+          präsentieren.
         </p>
-        <a
-          href="#"
-          class="text-markajgold-500 mt-4 inline-block text-sm font-semibold hover:underline"
-        >
-          Mehr erfahren →
-        </a>
       </div>
     </div>
 
     <!-- Call-to-Action -->
     <div class="mt-12 flex justify-center">
       <button
-        class="bg-markajgold-500 hover:bg-markajgold-600 rounded-full px-8 py-4 text-white shadow-lg transition"
+        class="rounded-full bg-markajgold-500 px-8 py-4 text-white shadow-lg transition hover:bg-markajgold-600"
       >
         Mehr Projekte ansehen
       </button>
     </div>
   </section>
+  <Reviews />
 </template>
 
 <script setup lang="ts">
-// Keine spezielle Logik nötig
+import Reviews from '../molecules/Reviews.vue';
+import SafariMockup from '../inspira/SafariMockup.vue';
 </script>
 
 <style scoped>

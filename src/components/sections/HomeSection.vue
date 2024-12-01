@@ -19,22 +19,33 @@
       <!-- Linker Bereich -->
       <div class="space-y-6 text-left">
         <!-- Kleinere Beschreibung -->
-        <p class="text-markajgold-400 text-lg uppercase tracking-wide">
+        <p class="text-lg uppercase tracking-wide text-markajgold-400">
           Webdesign Agentur in Hamburg
         </p>
 
         <!-- Hauptüberschrift -->
         <h1
-          class="from-markajpink-500 to-markajgold-500 bg-gradient-to-r bg-clip-text py-4 text-5xl font-bold text-transparent lg:text-6xl"
+          class="bg-gradient-to-r from-markajpink-500 to-markajgold-500 bg-clip-text py-4 text-5xl font-bold text-transparent lg:text-6xl"
         >
-          Maßgeschneiderte Websites, die überzeugen
+          Innovative Websites, die begeistern und wachsen lassen
         </h1>
 
         <!-- Unterüberschrift -->
-        <p class="text-markajneutral-500 text-lg leading-relaxed">
-          Nutzen Sie die Kraft moderner Webtechnologien, um Ihre Marke
-          hervorzuheben und neue Kunden zu gewinnen. Wir gestalten
-          professionelle, benutzerfreundliche Websites, die Ergebnisse liefern.
+        <p class="text-lg leading-relaxed text-markajneutral-500">
+          Entfalten Sie das volle Potenzial Ihrer Marke mit einer
+          <FlipWords
+            :words="[
+              'Einzigartigen',
+              'Inspirierenden',
+              'Zukunftssicheren',
+              'Effektiven',
+            ]"
+            :duration="3000"
+            class="text-4xl !text-primary"
+          />
+          Online-Präsenz. Wir erstellen moderne, zielgerichtete Websites, die
+          nicht nur beeindrucken, sondern Ihre Kunden überzeugen und Ihr
+          Wachstum fördern.
         </p>
 
         <!-- Call-to-Actions -->
@@ -42,7 +53,7 @@
           <ShimmerButton
             class="shadow-2xl"
             shimmer-size="2px"
-            :class="'bg-markajgold-500 rounded-full px-6 py-3 text-white'"
+            :class="'rounded-full bg-markajgold-500 px-6 py-3 text-white'"
           >
             <div class="flex items-center space-x-2">
               <span>Mehr Kunden? Jetzt beraten lassen</span>
@@ -64,7 +75,7 @@
           <ShimmerButton
             class="shadow-2xl"
             shimmer-size="2px"
-            :class="'bg-markajpink-500 rounded-full px-6 py-3 text-white'"
+            :class="'rounded-full bg-markajpink-500 px-6 py-3 text-white'"
           >
             <div class="flex items-center space-x-2">
               <span>Unsere Projekte ansehen</span>
@@ -103,6 +114,7 @@
 </template>
 
 <script setup lang="ts">
+import FlipWords from '../inspira/FlipWords.vue';
 import ShimmerButton from '../inspira/ShimmerButton.vue';
 import { computed } from 'vue';
 import { useColorMode } from '@vueuse/core';

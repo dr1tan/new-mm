@@ -6,51 +6,52 @@
       class="container mx-auto flex w-full items-center justify-between px-6"
     >
       <!-- Logo -->
-      <a href="#" class="text-markajpink-500 text-xl font-bold">
+      <a href="#" class="text-xl font-bold text-markajpink-500">
         Markaj-Media
       </a>
 
       <!-- Navigation Links -->
       <nav class="hidden space-x-8 lg:flex">
         <a
-          href="#about-us"
-          class="text-markajneutral-400 hover:text-markajpink-500 transition"
-        >
-          Über uns
-        </a>
-        <a
           href="#services"
-          class="text-markajneutral-400 hover:text-markajpink-500 transition"
+          class="text-markajneutral-400 transition hover:text-markajpink-500"
         >
           Leistungen
         </a>
         <a
           href="#case-studies"
-          class="text-markajneutral-400 hover:text-markajpink-500 transition"
+          class="text-markajneutral-400 transition hover:text-markajpink-500"
         >
           Case Studies
         </a>
         <a
           href="#pricing"
-          class="text-markajneutral-400 hover:text-markajpink-500 transition"
+          class="text-markajneutral-400 transition hover:text-markajpink-500"
         >
           Preise
         </a>
+
         <a
           href="#faq"
-          class="text-markajneutral-400 hover:text-markajpink-500 transition"
+          class="text-markajneutral-400 transition hover:text-markajpink-500"
         >
           FAQ
         </a>
         <a
+          href="#about-us"
+          class="text-markajneutral-400 transition hover:text-markajpink-500"
+        >
+          Über uns
+        </a>
+        <a
           href="#blog"
-          class="text-markajneutral-400 hover:text-markajpink-500 transition"
+          class="text-markajneutral-400 transition hover:text-markajpink-500"
         >
           Blog
         </a>
         <a
           href="#contact"
-          class="text-markajneutral-400 hover:text-markajpink-500 transition"
+          class="text-markajneutral-400 transition hover:text-markajpink-500"
         >
           Kontakt
         </a>
@@ -59,7 +60,7 @@
       <!-- Call-to-Action Button -->
       <a
         href="#contact"
-        class="bg-markajgold-500 hover:bg-markajgold-600 flex items-center space-x-2 rounded-full px-6 py-3 text-sm font-semibold text-white shadow-md transition"
+        class="flex items-center space-x-2 rounded-full bg-markajgold-500 px-6 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-markajgold-600"
       >
         <span>Mehr Umsatz? Jetzt kontaktieren</span>
         <svg
@@ -81,7 +82,7 @@
       <!-- Mobile Menu Button -->
       <button
         @click="toggleMobileMenu"
-        class="text-markajpink-500 block focus:outline-none lg:hidden"
+        class="block text-markajpink-500 focus:outline-none lg:hidden"
       >
         ☰
       </button>
@@ -95,56 +96,56 @@
       >
         <button
           @click="toggleMobileMenu"
-          class="text-markajpink-500 mb-4 self-end text-2xl focus:outline-none"
+          class="mb-4 self-end text-2xl text-markajpink-500 focus:outline-none"
         >
           ×
         </button>
         <nav class="flex flex-col space-y-6">
           <a
-            href="#about-us"
-            class="text-markajneutral-400 hover:text-markajpink-500 text-lg transition"
-            @click="toggleMobileMenu"
-          >
-            Über uns
-          </a>
-          <a
             href="#services"
-            class="text-markajneutral-400 hover:text-markajpink-500 text-lg transition"
+            class="text-lg text-markajneutral-400 transition hover:text-markajpink-500"
             @click="toggleMobileMenu"
           >
             Leistungen
           </a>
           <a
             href="#case-studies"
-            class="text-markajneutral-400 hover:text-markajpink-500 text-lg transition"
+            class="text-lg text-markajneutral-400 transition hover:text-markajpink-500"
             @click="toggleMobileMenu"
           >
             Case Studies
           </a>
           <a
             href="#pricing"
-            class="text-markajneutral-400 hover:text-markajpink-500 text-lg transition"
+            class="text-lg text-markajneutral-400 transition hover:text-markajpink-500"
             @click="toggleMobileMenu"
           >
             Preise
           </a>
           <a
             href="#faq"
-            class="text-markajneutral-400 hover:text-markajpink-500 text-lg transition"
+            class="text-lg text-markajneutral-400 transition hover:text-markajpink-500"
             @click="toggleMobileMenu"
           >
             FAQ
           </a>
           <a
+            href="#about-us"
+            class="text-lg text-markajneutral-400 transition hover:text-markajpink-500"
+            @click="toggleMobileMenu"
+          >
+            Über uns
+          </a>
+          <a
             href="#blog"
-            class="text-markajneutral-400 hover:text-markajpink-500 text-lg transition"
+            class="text-lg text-markajneutral-400 transition hover:text-markajpink-500"
             @click="toggleMobileMenu"
           >
             Blog
           </a>
           <a
             href="#contact"
-            class="text-markajgold-500 hover:text-markajgold-700 text-lg font-semibold transition"
+            class="text-lg font-semibold text-markajgold-500 transition hover:text-markajgold-700"
             @click="toggleMobileMenu"
           >
             Mehr Umsatz? Jetzt kontaktieren
