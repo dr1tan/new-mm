@@ -7,7 +7,7 @@
       class="absolute inset-0"
       :quantity="150"
       :ease="50"
-      :color="isDark ? '#FFF' : '#000'"
+      :color="isDark ? '#FFF' : '#800'"
       :staticity="15"
       refresh
     />
@@ -16,7 +16,6 @@
     <div
       class="z-10 grid grid-cols-1 items-center gap-8 px-8 lg:grid-cols-2 lg:px-16"
     >
-      <!-- Linker Bereich -->
       <div class="space-y-6 text-left">
         <!-- Kleinere Beschreibung -->
         <p class="text-lg uppercase tracking-wide text-markajgold-400">
@@ -24,31 +23,19 @@
         </p>
 
         <!-- Hauptüberschrift -->
-        <h1
-          class="bg-gradient-to-r from-markajpink-500 to-markajgold-500 bg-clip-text py-4 text-5xl font-bold text-transparent lg:text-6xl"
-        >
-          Innovative Websites, die begeistern und wachsen lassen
-        </h1>
+        <BlurReveal :delay="0.2" :duration="0.75" class="">
+          <h1
+            class="bg-gradient-to-r from-markajpink-500 to-markajgold-500 bg-clip-text py-4 text-5xl font-bold text-transparent lg:text-6xl"
+          >
+            Innovative Websites, die begeistern und wachsen lassen
+          </h1>
 
-        <!-- Unterüberschrift -->
-        <p class="text-lg leading-relaxed text-markajneutral-500">
-          Entfalten Sie das volle Potenzial Ihrer Marke mit einer
-          <FlipWords
-            :words="[
-              'Einzigartigen',
-              'Inspirierenden',
-              'Zukunftssicheren',
-              'Effektiven',
-            ]"
-            :duration="3000"
-            class="text-4xl !text-primary"
-          />
-          Online-Präsenz. Wir erstellen moderne, zielgerichtete Websites, die
-          nicht nur beeindrucken, sondern Ihre Kunden überzeugen und Ihr
-          Wachstum fördern.
-        </p>
-
-        <!-- Call-to-Actions -->
+          <!-- Unterüberschrift -->
+          <p class="text-lg leading-relaxed text-markajneutral-500">
+            Entdecken Sie das Potenzial Ihrer Marke mit einer professionellen
+            Online-Präsenz. Moderne Websites, die überzeugen.
+          </p>
+        </BlurReveal>
         <div class="flex flex-col sm:flex-row sm:gap-4">
           <ShimmerButton
             class="shadow-2xl"
@@ -114,6 +101,7 @@
 </template>
 
 <script setup lang="ts">
+import BlurReveal from '../inspira/BlurReveal.vue';
 import FlipWords from '../inspira/FlipWords.vue';
 import ShimmerButton from '../inspira/ShimmerButton.vue';
 import { computed } from 'vue';

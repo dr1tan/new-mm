@@ -13,80 +13,87 @@
     </div>
 
     <!-- Dienstleistungen -->
-    <div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+    <div class="mt-12 grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
       <!-- Leistung 1 -->
-      <div class="relative mx-auto w-full max-w-xs">
+      <div class="relative mx-auto w-full max-w-sm">
         <div
-          class="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl bg-markajneutral-900 px-4 py-8 shadow-xl"
+          class="relative flex h-60 flex-col items-center justify-center overflow-hidden rounded-2xl bg-markajneutral-900 p-8 shadow-xl"
         >
-          <h3 class="relative z-50 mb-4 text-xl font-bold text-markajpink-300">
-            Webdesign & Entwicklung
-          </h3>
-          <p
-            class="relative z-50 mb-4 text-base font-normal text-markajneutral-400"
-          >
-            Maßgeschneiderte Websites, die modern, benutzerfreundlich und
-            leistungsstark sind.
-          </p>
           <Meteors />
+          <div class="relative z-10 text-center">
+            <h3 class="mb-4 text-4xl font-extrabold text-markajpink-300">
+              Webdesign & Entwicklung
+            </h3>
+            <p
+              class="text-base font-medium leading-relaxed text-markajneutral-400"
+            >
+              Wir gestalten moderne und benutzerfreundliche Websites, die auf
+              Ihre Marke und Ihre Ziele abgestimmt sind.
+            </p>
+          </div>
         </div>
       </div>
 
       <!-- Leistung 2 -->
-      <div class="relative mx-auto w-full max-w-xs">
+      <div class="relative mx-auto w-full max-w-sm">
         <div
-          class="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl bg-markajneutral-900 px-4 py-8 shadow-xl"
+          class="relative flex h-60 flex-col items-center justify-center overflow-hidden rounded-2xl bg-markajneutral-900 p-8 shadow-xl"
         >
-          <h3 class="relative z-50 mb-4 text-xl font-bold text-markajgold-300">
-            SEO & Online-Marketing
-          </h3>
-          <p
-            class="relative z-50 mb-4 text-base font-normal text-markajneutral-400"
-          >
-            Optimieren Sie Ihre Online-Präsenz und erreichen Sie mehr Kunden mit
-            gezieltem Marketing.
-          </p>
           <Meteors />
+          <div class="relative z-10 text-center">
+            <h3 class="mb-4 text-4xl font-extrabold text-markajgold-300">
+              SEO & Online-Marketing
+            </h3>
+            <p
+              class="text-base font-medium leading-relaxed text-markajneutral-400"
+            >
+              Steigern Sie Ihre Sichtbarkeit im Internet und gewinnen Sie mehr
+              Kunden mit unseren effektiven Marketingstrategien.
+            </p>
+          </div>
         </div>
       </div>
 
       <!-- Leistung 3 -->
-      <div class="relative mx-auto w-full max-w-xs">
+      <div class="relative mx-auto w-full max-w-sm">
         <div
-          class="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl bg-markajneutral-900 px-4 py-8 shadow-xl"
+          class="relative flex h-60 flex-col items-center justify-center overflow-hidden rounded-2xl bg-markajneutral-900 p-8 shadow-xl"
         >
-          <h3 class="relative z-50 mb-4 text-xl font-bold text-markajblue-300">
-            Branding & Logo-Design
-          </h3>
-          <p
-            class="relative z-50 mb-4 text-base font-normal text-markajneutral-400"
-          >
-            Wir entwickeln ein unverwechselbares Branding, das Ihre Marke
-            stärkt.
-          </p>
           <Meteors />
+          <div class="relative z-10 text-center">
+            <h3 class="mb-4 text-4xl font-extrabold text-markajblue-300">
+              Branding & Logo-Design
+            </h3>
+            <p
+              class="text-base font-medium leading-relaxed text-markajneutral-400"
+            >
+              Wir entwickeln ein einzigartiges Branding und Logos, die Ihre
+              Marke unverkennbar machen und stärken.
+            </p>
+          </div>
         </div>
       </div>
 
       <!-- Leistung 4 -->
-      <div class="relative mx-auto w-full max-w-xs">
+      <div class="relative mx-auto w-full max-w-sm">
         <div
-          class="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl bg-markajneutral-900 px-4 py-8 shadow-xl"
+          class="relative flex h-60 flex-col items-center justify-center overflow-hidden rounded-2xl bg-markajneutral-900 p-8 shadow-xl"
         >
-          <h3 class="relative z-50 mb-4 text-xl font-bold text-markajgreen-300">
-            Wartung & Support
-          </h3>
-          <p
-            class="relative z-50 mb-4 text-base font-normal text-markajneutral-400"
-          >
-            Wir kümmern uns um Updates, Sicherheit und Support, damit Ihre
-            Website immer auf dem neuesten Stand bleibt.
-          </p>
           <Meteors />
+          <div class="relative z-10 text-center">
+            <h3 class="mb-4 text-4xl font-extrabold text-markajgreen-300">
+              Wartung & Support
+            </h3>
+            <p
+              class="text-base font-medium leading-relaxed text-markajneutral-400"
+            >
+              Wir stellen sicher, dass Ihre Website immer aktuell, sicher und
+              fehlerfrei bleibt – für Ihren Erfolg online.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-
     <!-- Call-to-Action -->
     <div class="mt-12 flex justify-center">
       <button
